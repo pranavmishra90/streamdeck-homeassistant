@@ -33,5 +33,5 @@ jobs:
 
       - name: Debug list tree
         run: |
-          apt install tree
+          sudo apt install tree
           tree
